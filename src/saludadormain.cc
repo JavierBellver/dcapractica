@@ -22,5 +22,6 @@ int main() {
 	bind_textdomain_codeset (GETTEXT_PACKAGE.c_str(), "UTF-8");
 	textdomain (GETTEXT_PACKAGE.c_str());
 	cout << (_("saludo\n"))
+	cout << (_("despedida\n"));
 	return 0;
 }
